@@ -1,6 +1,6 @@
 import time,sys,os,pytest
-sys.path.append(os.path.dirname(r'C:\Users\XHY\PycharmProjects\untitled\day09\test_report\base'))
-sys.path.append(os.path.dirname(r'C:\Users\XHY\PycharmProjects\untitled\day09\test_report\page'))
+sys.path.append(os.getcwd())
+sys.path.append(os.getcwd())
 from base.init_driver import Initdriver
 from page.page import Page
 from base.read_yaml import r_ymal
