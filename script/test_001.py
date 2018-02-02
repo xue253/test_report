@@ -4,3 +4,5 @@ class Test_A():
     @allure.step("第一条测试用例")
     def test_001(self):
         assert 1
+    def test_002(self):
+        assert 0
